@@ -1,0 +1,3 @@
+# Uninitialized Property Access in C#
+
+This example demonstrates a common error in C#: accessing a property of a class before it has been properly initialized.  In the provided `Bug.cs` file, the `MyMethod` function attempts to print the value of `MyProperty` before the constructor has set its value.  This might result in an unexpected value or even a runtime exception depending on the context. The solution is shown in `BugSolution.cs`.
